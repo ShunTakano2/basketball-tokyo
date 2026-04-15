@@ -127,7 +127,7 @@ export default async function TokyoBasketballPage() {
               </div>
 
               <div style={{ marginTop: "12px", display: "flex", gap: "12px" }}>
-                <Link href="/event/test-1">詳細を見る</Link>
+                <Link href={`/event/${event.id}`}>詳細を見る</Link>
                 <a href={event.source_url} target="_blank" rel="noreferrer">
                   元サイト
                 </a>
